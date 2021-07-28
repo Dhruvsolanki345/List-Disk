@@ -1,0 +1,33 @@
+
+.task {
+    background-color: rgb(85, 41, 220);
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.task:hover {
+    background-color: #F9F9FC;
+    color: rgb(85, 41, 220);
+}
+
+.fa-edit, .fa-trash-alt {
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.task:hover .fa-edit {
+    color: #2fd67a;
+}
+
+.task:hover .fa-trash-alt {
+    color: red;
+}
