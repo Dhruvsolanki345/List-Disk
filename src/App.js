@@ -3,6 +3,7 @@ import Task from "./Task";
 import "./App.css";
 import todo_image from "./images/todo-image.jpg";
 import { nanoid } from "nanoid";
+import { FaEdit, FaPlus } from 'react-icons/fa';
 
 function App() {
   const [input, setInput] = useState("");
@@ -75,8 +76,8 @@ function App() {
             <button
               onClick={addEditTask}
               type="submit"
-              className={`fas fa-${isEdit ? "edit edit_btn" : "plus add_btn"}`}
-            ></button>
+              className={isEdit ? "edit_btn" : "add_btn"}
+            >{ isEdit ? <FaEdit /> : <FaPlus /> }</button>
           </form>
           <div className="input_err">{isErr && "Input can't be blank"}</div>
         </div>

@@ -1,33 +1,36 @@
-
 .task {
-    background-color: rgb(85, 41, 220);
-    height: 45px;
-    width: 400px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    box-sizing: border-box;
-    margin-top: 10px;
+  background-color: rgb(85, 41, 220);
+  height: 45px;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
 }
 
 .task:hover {
-    background-color: #F9F9FC;
-    color: rgb(85, 41, 220);
+  background-color: #f9f9fc;
+  color: rgb(85, 41, 220);
+}
+.task_action {
+  display: flex;
+  align-items: center;
+}
+.edit,
+.trash-alt {
+  margin: 0 8px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-.fa-edit, .fa-trash-alt {
-    margin: 0 8px;
-    font-size: 20px;
-    cursor: pointer;
+.task:hover .edit {
+  color: #2fd67a;
 }
 
-.task:hover .fa-edit {
-    color: #2fd67a;
-}
-
-.task:hover .fa-trash-alt {
-    color: red;
+.task:hover .trash-alt {
+  color: red;
 }
