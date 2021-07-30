@@ -63,8 +63,9 @@ function App() {
   return (
     <div className="app">
       <div className="container">
+        <div className="title">List Disk - A Todo App</div>
         <img className="todo_logo" src={todo_image} alt="todo logo" />
-        <div className="title">Add Your Task Here &#9996; </div>
+        <div className="heading">Add Your Task Here &#9996; </div>
         <div className="add_container">
           <form className="add_item">
             <input

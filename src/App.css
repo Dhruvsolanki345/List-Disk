@@ -1,10 +1,10 @@
 .app {
   background-color: #060822;
-  color: #F9F9FC;
+  background-image: linear-gradient(-45deg, #060606, #201531);
+  color: #f9f9fc;
 }
-
 .container {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -13,12 +13,29 @@
   box-sizing: border-box;
 }
 
+.title {
+  padding: 50px 0 30px;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  /* background-color: #f3ec78; */
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .todo_logo {
   width: 90px;
   height: 90px;
 }
 
-.title {
+.heading {
   font-size: 20px;
   font-weight: bold;
   margin-top: 15px;
@@ -32,7 +49,7 @@
 .add_item {
   display: flex;
   align-items: center;
-  background-color: #F9F9FC;
+  background-color: #f9f9fc;
   border-radius: 5px;
   overflow: hidden;
   width: 400px;
@@ -51,7 +68,8 @@
   outline: none;
 }
 
-.add_btn, .edit_btn {
+.add_btn,
+.edit_btn {
   margin-right: 10px;
   font-weight: bold;
   font-size: 24px;
@@ -73,20 +91,20 @@
 }
 
 .todo_list {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .remove_all_btn {
   margin-top: 40px;
   height: 50px;
   width: 160px;
-  background-color: #F9F9FC;
+  background-color: #f9f9fc;
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .remove_all_btn:hover {
-  color: #F9F9FC;
+  color: #f9f9fc;
   background-color: rgb(85, 41, 220);
 }
