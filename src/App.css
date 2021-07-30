@@ -4,10 +4,8 @@
   color: #f9f9fc;
 }
 .container {
-  /* padding-top: 120px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   min-height: 100vh;
   box-sizing: border-box;
@@ -19,10 +17,8 @@
   font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
-  /* background-color: #f3ec78; */
   background-color: #7ee8fa;
   background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
-
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
