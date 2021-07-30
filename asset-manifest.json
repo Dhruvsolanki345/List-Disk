@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/List-Disk/static/css/main.a071f5cd.chunk.css",
-    "main.js": "/List-Disk/static/js/main.ae60bfe9.chunk.js",
-    "main.js.map": "/List-Disk/static/js/main.ae60bfe9.chunk.js.map",
+    "main.css": "/List-Disk/static/css/main.837f0e21.chunk.css",
+    "main.js": "/List-Disk/static/js/main.072de4d7.chunk.js",
+    "main.js.map": "/List-Disk/static/js/main.072de4d7.chunk.js.map",
     "runtime-main.js": "/List-Disk/static/js/runtime-main.f3fee238.js",
     "runtime-main.js.map": "/List-Disk/static/js/runtime-main.f3fee238.js.map",
     "static/js/2.a792eac9.chunk.js": "/List-Disk/static/js/2.a792eac9.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.28af694d.chunk.js": "/List-Disk/static/js/3.28af694d.chunk.js",
     "static/js/3.28af694d.chunk.js.map": "/List-Disk/static/js/3.28af694d.chunk.js.map",
     "index.html": "/List-Disk/index.html",
-    "static/css/main.a071f5cd.chunk.css.map": "/List-Disk/static/css/main.a071f5cd.chunk.css.map",
+    "static/css/main.837f0e21.chunk.css.map": "/List-Disk/static/css/main.837f0e21.chunk.css.map",
     "static/js/2.a792eac9.chunk.js.LICENSE.txt": "/List-Disk/static/js/2.a792eac9.chunk.js.LICENSE.txt",
     "static/media/todo-image.d0d1c673.jpg": "/List-Disk/static/media/todo-image.d0d1c673.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f3fee238.js",
     "static/js/2.a792eac9.chunk.js",
-    "static/css/main.a071f5cd.chunk.css",
-    "static/js/main.ae60bfe9.chunk.js"
+    "static/css/main.837f0e21.chunk.css",
+    "static/js/main.072de4d7.chunk.js"
   ]
 }
